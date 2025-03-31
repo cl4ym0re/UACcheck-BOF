@@ -5,7 +5,7 @@
 
 <h2>示例:</h2>
 如图UAC等级设置到最高：
-![image](https://github.com/user-attachments/assets/7210a52b-ccf5-42dd-8b4a-d4e72c4d5261)
+![image](always.png)
 
 
  
