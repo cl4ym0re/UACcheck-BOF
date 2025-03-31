@@ -1,7 +1,7 @@
 <h1>checkUAC-BOF</h1>
 
 一个通过读取ConsentPromptBehaviorAdmin的值并用于判断当前主机UAC等级的BOF，主要为了实现bypassUAC的前期探测工作。  （钓鱼上来的机器如果uac等级为Always Notify的话，bypassuac会直接弹框，动静很大）<br><br>
-A BOF that you should run it befor you bypassUAC.
+A BOF that you should execute before you bypassUAC.
 
 <h2>如图：</h2>
 
