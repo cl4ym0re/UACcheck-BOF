@@ -1,0 +1,14 @@
+beacon_command_register("checkUAC", "Check the UAC level  ",
+	"Synopsis: checkUAC\n" .
+	"Check the UAC level to avoid the Windows pop-up window that requires user confirmation when BypassUAC\n");
+
+alias checkUAC {
+    $bid = $1;
+
+    # Read in the right BOF file
+    $handle = openf(script_resource("checkUAC." . barch($bid) . ".obj"));
+    $data  = readb($handle, -1);
+    closef($handle);
+
+    beacon_inline_execute($bid,$data ,"go");
+}
