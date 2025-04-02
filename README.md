@@ -7,9 +7,10 @@ A BOF that you should execute before you bypassUAC.
 
 <img src="https://github.com/cl4ym0re/checkUAC-BOF/blob/main/always.png?raw=true" alt="image" />
 碰到这种环境，谨慎对待你的beacon
- 
 
+ <h2>感谢：</h2>
 
+https://github.com/securifybv/Visual-Studio-BOF-template
 
 
 
